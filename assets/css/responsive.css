@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1023px) {
+    body{
+        font-size: 18px;
+    }
+
+    h2{
+        font-size: 44px;
+        line-height: 1;
+    }
+
+    .team-section .section-title p {
+        line-height: 1.5;
+    }
+
+    .team-section .team-item-wrap {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 34px;
+    }
+
+    .team-section .section-title p {
+        line-height: 1.4;
+    }
+
+    .team-section .team-item-wrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .team-section .team-item-wrap {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
